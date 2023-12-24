@@ -120,12 +120,12 @@ public:
       std::cout << "\nEnter Password: ";
       std::cin >> password;
 
-      if (password == "19064837") {
+      if (password == "1234") {
         std::cout << "Success" << std::endl;
         break;
       } 
       else {
-        std::cout << "\nIncorrect. Please try again\nHint: 19064837" << std::endl;
+        std::cout << "\nIncorrect. Please try again\nHint: 1234" << std::endl;
       }
     }
   }
